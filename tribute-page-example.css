@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: #FAEBD7;
+}
+
+h1 {
+  font-family: Georgia;
+  color: #F1A086;
+  font-size: 3rem;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 1em;
+}
+
+#detail {
+  color: #EDBBAB;
+  font-size: 0.5em
+}
+
+header > p {
+  color: #696969;
+  font-family: Georgia;
+  padding: 15px;
+}
+
+.summary {
+  font-family: Monaco;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#tribute-info {
+  text-align: center;
+  font-style: italic;
+  font-size: 1em;
+}
+
+#main{
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: Times New Roman;
+  background: #FAEBD7;
+}
+
+.one{
+  margin: 30px 8px;
+  padding: 15px;
+}
+
+.bold {
+  font-weight: bold;
+  text-align: center;
+  border: 10px 0;
+}
+
+h3 {
+  display: block;
+  font-size: 1.3em;
+}
+
+li::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px;
+  text-align: start;
+  text-align-last: start;
+}
+
+ul {
+  line-height: 1.6;
+  list-style-type: disc;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
